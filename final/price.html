@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>E-POP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="price/price.css">
+  <script src="https://kit.fontawesome.com/28fc10b6f4.js" crossorigin="anonymous"></script>
+  <title></title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        
+        <a class="navbar-brand" href="index.html" style="color: #0c3b2e;"><i class="fa-brands fa-leanpub fa-lg"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-between bar" id="navbarNavDropdown">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="course.html">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="price.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dashborad.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+            
+            </ul>
+            <div class="signin">
+                <a href="login&signUp/login.html">Sign in?</a>
+            </div>
+            <div class="btn1">
+              <a href="/course.html#courses"><button type="button" class="btn btn-info">Start Studying</button></a>
+            </div>
+        </div>
+    </div>
+  </nav>
+
+  <!-- Just a random bg workaround -->
+  <div class="bg">
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+  </div>
+  <!-- end of bg -->
+
+  <header>
+    <h1>Choose your plan</h1>
+    <div class="switch-container">
+      <!-- Rounded switch -->
+      <h4>Monthly</h4>
+      <label class="switch">
+        <input id="priceSwitch" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <h4>Yearly</h4>
+    </div>
+  </header>
+  <section class="container">
+    <div id="myAnnualTables"class="tables-container annual-tables">
+      <div class="price-table">
+        <h2>Team</h2>
+        <h3><span>&dollar;</span>150</h3>
+        <p>/Yearly</p>
+        <button class="button-dark">Get Started</button>
+          <ul class="list-inline">
+            <li class="d-block py-2">1 user per accound</li>
+            <li class="d-block py-2">Unlimited events</li>
+            <li class="d-block py-2">registaction Form</li>
+            <li class="d-block py-2">Email announcements</li>
+            <li class="d-block py-2">Integrate webinars</li>
+            <!--<li class="d-block py-2">Saies using mobile app</li>-->
+            <li class="d-block py-2">&nbsp;</li>
+            <li class="d-block py-2">&nbsp;</li>
+        </ul>
+      </div>
+
+      <div class="price-table highlight-table">
+        <h2>Agency</h2>
+        <h3><span>&dollar;</span>400</h3>
+        <p>/Yearly</p>
+        <button class="button-light">Get Started</button>
+          <ul class="list-inline">
+          <li class="d-block py-2">Unlimited paid ticket</li>
+          <li class="d-block py-2">Google Analytics Integration</li>
+          <li class="d-block py-2">Customnoble registaction</li>
+          <li class="d-block py-2">500 Email invitations events</li>
+          <li class="d-block py-2">Payments with mobile app</li>
+          <li class="d-block py-2">Google Analytics Integration</li>
+          </ul>
+      </div>
+
+      <div class="price-table">
+        <h2>Interprise</h2>
+        <h3><span>&dollar;</span>600</h3>
+        <p>/Yearly</p>
+        <button class="button-dark">Get Started</button>
+        <ul class="list-inline">
+          <li class="d-block py-2">Unlimited account user</li>
+          <li class="d-block py-2">Custom domain support</li>
+          <li class="d-block py-2">registaction transfers</li>
+          <li class="d-block py-2">Email Notification</li>
+          <li class="d-block py-2">Speaker monagment</li>
+          <!---<li class="d-block py-2">Email support</li>--->
+          </ul>
+      </div>
+    </div>
+
+
+      <div id="myMonthlyTables" class="tables-container tables-hidden">
+        <div class="price-table">
+          <h2>Team</h2>
+          <h3><span>&dollar;</span>15.00</h3>
+          <p>/Monthly</p>
+          <button class="button-dark">Get Started</button>
+            <ul class="list-inline">
+              <li class="d-block py-2">1 user per accound</li>
+              <li class="d-block py-2">Unlimited events</li>
+              <li class="d-block py-2">registaction Form</li>
+              <li class="d-block py-2">Email announcements</li>
+              <li class="d-block py-2">Integrate webinars</li>
+              <!---<li class="d-block py-2">Saies using mobile app</li>--->
+              <li class="d-block py-2">&nbsp;</li>
+              <li class="d-block py-2">&nbsp;</li>
+          </ul>
+        </div>
+  
+       
+          <div class="price-table highlight-table">
+            <h2>Agency</h2>
+            <h3><span>&dollar;</span>40</h3>
+            <p>/Monthly</p>
+            <button class="button-light">Get Started</button>
+              <ul class="list-inline">
+              <li class="d-block py-2">Unlimited paid ticket</li>
+              <li class="d-block py-2">Google Analytics Integration</li>
+              <li class="d-block py-2">Customnoble registaction</li>
+              <li class="d-block py-2">500 Email invitations events</li>
+              <li class="d-block py-2">Payments with mobile app</li>
+              <li class="d-block py-2">Google Analytics Integration</li>
+              </ul>
+          </div>
+
+          <div class="price-table">
+            <h2>Interprise</h2>
+            <h3><span>&dollar;</span>90</h3>
+            <p>/Monthly</p>
+            <button class="button-dark">Get Started</button>
+            <ul class="list-inline">
+              <li class="d-block py-2">Unlimited account user</li>
+              <li class="d-block py-2">Custom domain support</li>
+              <li class="d-block py-2">registaction transfers</li>
+              <li class="d-block py-2">Email Notification</li>
+              <li class="d-block py-2">Speaker monagment</li>
+             <!--- <li class="d-block py-2">Email support</li>-->
+              </ul>
+          </div>
+        
+    </div>
+  </section>
+  <section class="section-5">
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
+
+        <a href="https://web.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+
+      </div>
+
+      <div class="footer-left">    
+        <p>E-POP &copy; 2022</p>
+      </div>
+
+    </footer>
+  </section>
+
+
+  <script src="price/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

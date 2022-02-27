@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.sad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .5rem;
+}
+.containers{
+    padding: 1rem 3rem;
+}
+.login-container{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.avatar {
+    vertical-align: middle;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+form{
+    width: 360px;
+}
+
+form h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333;
+}
+.input-div{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+    
+}
+
+
+
+
+
+
+
+
+
+.input-div::after, .input-div::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #141E3B;
+    transition: .3s;
+}
+.input-div::after{
+    right: 50%;
+}
+.input-div::before{
+    left: 50%;
+}
+.input-div.focus::after, .input-div.focus::before{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-div.focus .i i{
+    color: #141E3B;
+    font-size: 15px;
+}
+.input-div.focus div h5{
+    top: -5px;
+    color: #141E3B;
+}
+.input-div .one{
+    margin-top: 0;
+}
+.input-div .two{
+    margin-bottom:4px;
+}
+.i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i i{
+    color: #d9d9d9;
+    transition:.3s ;
+}
+
+.input-div > div{
+    position: relative;
+    height: 45px;
+}
+.input-div > div h5{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #141E3B;
+    font-size: 18px;
+    /*  */
+    /* display: none; */
+    transition: .3s;
+}
+
+.input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: .5rem .7rem;
+    font-size: 1.3rem;color: #555;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.9rem;
+    transition: .3s;
+}
+a:hover{
+    color: #141E3B;
+}
+.btn{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    border: none;outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    /* background-image: do that we can   call  background-position that use to work became animation*/
+    /* background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f );
+     */
+    background-size: 200%;
+    transition: .5s;
+}
+.btn:hover{
+    background-position: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sign Up */
+
+.form{
+    /* border: 1px solid black; */
+    margin-left: auto;margin-right: auto;
+}
+
+.d-flex .btn p{
+    color: white;
+}
